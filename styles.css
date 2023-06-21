@@ -5,7 +5,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position:top;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Michroma', sans-serif;
 }
 
 .heading {
@@ -64,8 +64,9 @@ input[type=submit] {
     display: block;
     color: black;
     margin: 1em auto;
-    font-size: 24px;
-    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Michroma', sans-serif;
     max-width: 300px;
 }
 

@@ -1,7 +1,11 @@
 body {
     background-color: beige;
     color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(practicerhythmriso.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .heading {
@@ -10,6 +14,7 @@ body {
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
+    text-shadow: #ff00ff 1px;
 }
 
 form {
@@ -18,6 +23,7 @@ form {
     min-width: 350px;
     margin: 0 auto;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 input, textarea, select {
@@ -30,6 +36,7 @@ input, textarea, select {
     color: hotpink;
     border-radius: 8% 5px;
     box-sizing: border-box;
+    box-shadow: 2px 4px 10px greenyellow inset;
 }
 
 .inline {
@@ -58,5 +65,10 @@ input[type=submit] {
     color: black;
     margin: 1em auto;
     font-size: 24px;
+    font-family: 'Signika Negative', sans-serif;
     max-width: 300px;
+}
+
+input[type=range] {
+    accent-color: #ff00ff;
 }
